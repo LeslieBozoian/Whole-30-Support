@@ -1,0 +1,263 @@
+/* CSS Document */
+
+body {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  padding-top: 2px;
+}
+
+li {
+  display: inline;
+  margin-right: 30px;
+  color: white;
+  vertical-align: top;
+  padding: 0 0 0 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+li a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.top {
+  background: rgba(0,0,0,0.6);
+  height: 60px;
+  width: 100%;
+}
+
+.banner {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: white;
+  padding-top: 340px;
+  padding-left: 30px;
+}
+
+.subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  padding-left: 30px;
+}
+
+.downloadbuttons {
+  margin-top:30px;
+  padding-right: 30px;
+}
+
+.itunes {
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.FirstTitle {
+  width: 180px;
+  height: 40px;
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+
+.AboutTitle {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.bar1 {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: -3px;
+  padding-right: 10px;
+}
+
+.bar2 {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: -3px;
+}
+
+.about1 {
+  flex-grow: 1;
+  padding-right: 40px;
+  padding-left: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -10px;
+    font-size: 40px;
+  }
+
+  button {
+    border: 5px solid black;
+    padding: 15px 40px 15px 40px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+  }
+
+  button:hover {
+    border: 5px solid gray;
+    color: gray;
+  }
+
+.about2 {
+  flex-grow: 1;
+  padding-right: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about3 {
+  flex-grow: 1;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  padding-right: 30px;
+  line-height: 20px;
+}
+
+.community {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+.Food {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+.AboutSection {
+  display: flex;
+}
+
+.benefits {
+  display: flex;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.benefiticons {
+  flex-grow: 1;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer {
+  display: flex;
+  background-color: #9B9B9B;
+  color: white;
+}
+
+.column1 {
+  flex-grow: 1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  line-height: 25px;
+  padding-left: 70px;
+}
+
+.column2 {
+  flex-grow: 1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  line-height: 25px;
+}
+
+.column3 {
+  flex-grow: 1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  line-height: 25px;
+}
+
+h2 {
+  margin-bottom:-15px;
+}
+
+.bottombuttons {
+  width: 325px;
+  display: block;
+  margin: 0px auto;
+  padding-top: 200px;
+  padding-bottom: 70px;
+}
+
+.button1 {
+  text-align: center;
+  float: left;
+  padding-right: 20px;
+}
+
+.button2 {
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+.feature1 {
+  text-align: center;
+  flex: 1;
+}
+
+.feature2 {
+  text-align: center;
+  flex: 1;
+}
+
+.feature3 {
+  text-align: center;
+  flex: 1;
+}
+
+.graybox {
+  background-color: #9B9B9B;
+  padding-top: 40px;
+}
+
+.social {
+  display: flex;
+  padding-left: 20px;
+}
